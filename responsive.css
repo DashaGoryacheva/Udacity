@@ -1,0 +1,14 @@
+
+@media screen and (min-width:400px) {
+  .top{
+    width: 100%;
+}
+}
+  @media screen and (min-width:1900px) {
+    .container{
+      width: 100%;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+}

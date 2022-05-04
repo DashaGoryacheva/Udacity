@@ -1,0 +1,61 @@
+/*all*/
+.container{
+  display:flex;
+  flex-wrap: wrap;
+  width: 90%;
+  margin: auto;
+}
+
+/*header*/
+.top{
+display:flex;
+justify-content: space-between;
+width: 100%;
+min-height: 300px;
+border-bottom: solid 10px #7d97ad;
+position: relative;
+}
+.logo{
+width: 50%;
+margin: 1%;
+}
+.name{
+  color: #2d3c49;
+  text-transform: uppercase;
+  font-size: 30px;
+  text-align: right;
+  margin: 0% 5%;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  }
+
+  /*center*/
+
+  .image{
+    width: 100%;
+    padding: 1% 0%;
+}
+
+
+  /*footer*/
+
+h2{
+    color: #7d97ad;
+    text-align: left;
+    font-size: 200%;
+  }
+
+.pictures{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 100%;
+}
+.work{
+  font-size: 200%;
+}
+.small_picture{
+  width: 1200px;
+  height: 700px;
+}
