@@ -16,13 +16,12 @@ border-bottom: solid 10px #7d97ad;
 position: relative;
 }
 .logo{
-width: 50%;
+width: 20%;
 margin: 1%;
 }
 .name{
   color: #2d3c49;
   text-transform: uppercase;
-  font-size: 30px;
   text-align: right;
   margin: 0% 5%;
   position: absolute;
@@ -43,7 +42,6 @@ margin: 1%;
 h2{
     color: #7d97ad;
     text-align: left;
-    font-size: 200%;
   }
 
 .pictures{
@@ -52,10 +50,31 @@ h2{
   justify-content: space-between;
   width: 100%;
 }
-.work{
-  font-size: 200%;
+.app{
+  width: 30%;
+  min-height: 200%;
+  background-image:url(images/app.jpeg) ;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
-.small_picture{
-  width: 1200px;
-  height: 700px;
+.flower{
+  width: 30%;
+  min-height: 200%;
+  background-image:url(images/flower.jpg) ;
+  background-size: cover;
+background-repeat: no-repeat;
+}
+.bokeh{
+  width: 30%;
+  min-height: 200%;
+  background-image:url(images/bokeh.jpg) ;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.description{
+  text-transform: uppercase;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  width: 100%;
 }
