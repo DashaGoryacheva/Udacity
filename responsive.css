@@ -1,16 +1,77 @@
+@media screen and (max-width:575px) {
+  .name {
+    font-size: 0.3em;
+  }
 
-@media screen and (min-width:597px) {
- 
-.name{
-  font-size: 0.3em;
+  h2 {
+    font-size: 0.8em;
+  }
 
+  .textblock {
+    font-size: 35%;
+  }
+
+  .column {
+    width: 51%;
+    height: 70%;
+    margin: 0% 0% 10% 0%;
+  }
 }
-}
-  @media screen and (min-width:900px) {
-    .container{
-      width: 90%;
-      margin-left: auto;
-      margin-right: auto;
-    }
 
+@media screen and (min-width:576px) {
+  .name {
+    font-size: 0.4em;
+  }
+
+  .app,
+  .flower,
+  .bokeh {
+    height: 250%;
+  }
+
+  .textblock {
+    font-size: 60%;
+  }
+
+  h2 {
+    font-size: 0.9em;
+  }
+}
+
+@media screen and (min-width:768px) {
+  .name {
+    font-size: 0.6em;
+  }
+
+  .app,
+  .flower,
+  .bokeh {
+    height: 350%;
+  }
+
+  h2 {
+    font-size: 1em;
+  }
+}
+
+@media screen and (min-width:992px) {
+  .name {
+    font-size: 0.7em;
+  }
+
+  .container {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .app,
+  .flower,
+  .bokeh {
+    height: 500%;
+  }
+
+  h2 {
+    font-size: 1.1em;
+  }
 }

@@ -1,25 +1,29 @@
 /*all*/
-.container{
-  display:flex;
+
+.container {
+  display: flex;
   flex-wrap: wrap;
   width: 90%;
   margin: auto;
+  font-size: 14px;
+  ;
 }
 
 /*header*/
-.top{
-display:flex;
-justify-content: space-between;
-width: 100%;
-min-height: 300px;
-border-bottom: solid 10px #7d97ad;
-position: relative;
+.top {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  border-bottom: solid 10px #7d97ad;
+  position: relative;
 }
-.logo{
-width: 20%;
-margin: 1%;
+
+.logo {
+  width: 10%;
+  margin: 1%;
 }
-.name{
+
+.name {
   color: #2d3c49;
   text-transform: uppercase;
   text-align: right;
@@ -27,54 +31,79 @@ margin: 1%;
   position: absolute;
   right: 0;
   bottom: 0;
-  }
+}
 
-  /*center*/
+/*center*/
 
-  .image{
-    width: 100%;
-    padding: 1% 0%;
+.image {
+  width: 100%;
+  padding: 1% 0%;
 }
 
 
-  /*footer*/
+/*footer*/
 
-h2{
-    color: #7d97ad;
-    text-align: left;
-  }
+h2 {
+  color: #7d97ad;
+  text-align: left;
+}
 
-.pictures{
+/*block with featured work*/
+.row {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
   width: 100%;
 }
-.app{
+
+/* each work in its own column*/
+.column {
   width: 30%;
-  min-height: 200%;
-  background-image:url(images/app.jpeg) ;
-  background-size: cover;
-  background-repeat: no-repeat;
+  height: 100%;
 }
-.flower{
-  width: 30%;
-  min-height: 200%;
-  background-image:url(images/flower.jpg) ;
-  background-size: cover;
-background-repeat: no-repeat;
-}
-.bokeh{
-  width: 30%;
-  min-height: 200%;
-  background-image:url(images/bokeh.jpg) ;
-  background-size: cover;
-  background-repeat: no-repeat;
-}
-.description{
-  text-transform: uppercase;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
+
+/*pictures*/
+.app {
+
   width: 100%;
+  height: 100%;
+  background-image: url(images/app.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.flower {
+
+  width: 100%;
+  height: 100%;
+  background-image: url(images/flower.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.bokeh {
+
+  width: 100%;
+  height: 100%;
+  background-image: url(images/bokeh.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+/* description of the pictures*/
+.textblock {
+  text-transform: uppercase;
+
+}
+
+/* position of text*/
+h3 {
+  position: relative;
+  left: 30%;
+
+}
+
+.link {
+  position: relative;
+  left: 25%;
 }
