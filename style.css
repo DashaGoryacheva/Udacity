@@ -6,6 +6,8 @@
   width: 90%;
   margin: auto;
   font-size: 14px;
+  font-family: sans-serif;
+
   ;
 }
 
@@ -14,20 +16,19 @@
   display: flex;
   justify-content: space-between;
   width: 100%;
-  border-bottom: solid 10px #7d97ad;
+  border-bottom: solid 7px #7d97ad;
   position: relative;
 }
 
 .logo {
   width: 10%;
-  margin: 1%;
+
 }
 
 .name {
   color: #2d3c49;
   text-transform: uppercase;
   text-align: right;
-  margin: 0% 5%;
   position: absolute;
   right: 0;
   bottom: 0;
@@ -59,7 +60,7 @@ h2 {
 /* each work in its own column*/
 .column {
   width: 30%;
-  height: 100%;
+  height: 200px;
 }
 
 /*pictures*/
@@ -92,18 +93,15 @@ h2 {
 
 /* description of the pictures*/
 .textblock {
-  text-transform: uppercase;
-
+  text-align: center;
 }
 
-/* position of text*/
 h3 {
-  position: relative;
-  left: 30%;
-
+  text-transform: uppercase;
 }
 
 .link {
-  position: relative;
-  left: 25%;
+  padding-bottom: 2%;
 }
+
+/* position of text*/
